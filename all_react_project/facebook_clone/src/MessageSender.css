@@ -1,0 +1,83 @@
+.message__sender{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 95%;
+    border-radius: 12px;
+    box-shadow: 0px 5px 7px -7px rgba(0, 0, 0, 0.7);
+    margin-top: 30px;
+    padding: 30px;
+}
+.message__sender__bottom{
+    display: flex;
+    /* flex: 1; */
+    justify-content: space-evenly ;
+    align-items: center;
+    /* background-color: lightgreen; */
+    padding: 20px;
+}
+.message__sender__option>h3{
+    color: grey;
+    /* padding: 10px; */
+}
+.message__sender__option{
+    padding: 10px;
+}
+.message__sender__option:hover{
+    background-color: rgba(211, 211, 211, 0.199);
+cursor: pointer;
+border-radius: 6px;
+/* padding: 10px; */
+}
+.message__sender__top>form>input {
+    text-align: center;
+    outline-width: 0;
+    border-radius: 999px;
+    border: none;
+    background: rgba(211, 211, 211, 0.404);
+    padding: 5px 10px;
+}
+
+.message__sender__input{
+    margin: 0 10px;
+}
+
+.message__sender__option>h3:hover{
+}
+.message__sender__option{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.message__sender__top{
+    /* margin-top: 16px; */
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: red; */
+}
+.message__sender__option>h3{
+    margin: 3px 5px;
+}
+.message__sender__top>form{
+    display: flex;
+    flex: 1;
+    /* background-color: red; */
+    /* justify-content: center; */
+    flex-basis: 90%;
+    /* width: 100%; */
+}
+.message__sender__top>form>button{
+    display: none;
+}
+.message__sender__input{
+    flex: 1;
+}
+.message__sender__top>form>input{
+    outline-width: 0;
+    border-radius: 999px;
+    border: none;
+    background: rgba(211, 211, 211, 0.404);
+    padding: 5px 10px ;
+}

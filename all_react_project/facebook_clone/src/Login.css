@@ -1,0 +1,27 @@
+.container{
+    width: 99vw;
+    overflow: hidden;
+    height: 100vh;
+    background: white;
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    flex: 1;
+
+    display: flex;
+    /* background-color: red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img h1{
+    color: rgb(59,89,153);
+}
+.img img{
+/* background-color: red; */
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}

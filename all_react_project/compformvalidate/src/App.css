@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+width: 100vw;
+height: 100vh;
+background: rgb(3, 78, 121);
+}
+.formWrapper>h1{
+  text-align: center;
+  font-weight: 200;
+  font-size: 32px;
+}
+.formWrapper{
+border-radius: 12px;
+box-shadow: 2px 1px 4px grey;
+  width: 40%;
+  height: 50%;
+  min-width: 300px;
+  background: white;
+  padding-top:40px ;
+  padding: 20px ;
+  }
+  
+   .firstName{
+    padding: 0 40px 0 40px;
+    
+  }
+  .firstName>input{
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    outline: none;
+    /* outline-color:rgb(99, 218, 162); */
+  }
+   .lastName{
+    padding: 0 40px 0 40px;
+
+    
+    width: 100%;
+  }
+  .lastName>input{
+   display: block;
+   width: 100%;
+    padding: 10px 10px;
+    margin-top: 5px;
+    outline: none;
+    /* outline-color:rgb(99, 218, 162); */
+  }
+  .email,.password1,.password2{
+    padding: 0 80px 0 40px;
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5px;
+  }
+  .email>input{
+    flex: 1;
+    padding: 10px 10px;
+    margin-top: 5px;
+    /* outline-color:rgb(99, 218, 162); */
+    outline: none;
+  }
+  .password1>input{
+    flex: 1;
+    padding: 10px 10px;
+    margin-top: 5px;
+
+    outline: none;
+    /* outline-color:rgb(99, 218, 162); */
+  }
+  .password2>input{
+    flex: 1;
+    padding: 10px 10px;
+    margin-top: 5px;
+
+    outline: none;
+    /* outline-color:rgb(99, 218, 162); */
+  }
+input:active,input:focus{
+  /* padding: 12px; */
+}
+.error{
+  font-size: 14px;
+  color: rgb(185, 7, 7);
+  /* padding: 12px; */
+}
+.errorInput{
+  border: 1px solid red;
+  color: red;
+}
+.disabled{
+cursor: not-allowed;
+}
+button:disabled{
+  background-color: red;
+  cursor: not-allowed;
+}
+  button{
+    width: 40%;
+    min-width: 100px;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(3, 78, 121);
+    color: white;
+    margin: 20px auto;
+    display: block;
+    font-size: large;
+    border-radius: 4px;
+cursor: pointer;
+transform: scale(1);
+transition:  transform 0.4s ease ;
+
+  }
+  p{
+    text-align: center;
+  }
+  p>span>a{
+    color: rgb(3, 78, 121);
+  }
+  button:hover{
+    transform: scale(1.07);
+  }
+  .dashboard{
+    position: relative;
+    margin-top: 20px;
+    width: 99vw;
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(./images/react-director-admin-template.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .Logout{
+    position: fixed;
+    top: 0;
+    right:0 ;
+    width: 20%;
+    background-color: red;
+  }
+  .email, .password1, .password2 {
+    padding: 0 40px 0 40px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5px;
+}

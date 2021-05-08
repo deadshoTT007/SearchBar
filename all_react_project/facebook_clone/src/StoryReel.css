@@ -1,0 +1,9 @@
+.story__reel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* flex:1; */
+    align-items: flex-start;
+    /* background-color: red; */
+    padding-right: 16px;
+}
