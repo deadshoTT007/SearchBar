@@ -1,0 +1,25 @@
+.tv-show-container{
+    width:100%;
+    min-height:5.2rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d8d8d877;
+    padding: 1rem 1rem;
+    /* overflow-y: auto; */
+    
+  }
+
+  .image img{
+    width: 90px;
+    height:40px;
+  }
+  .title{
+    font-size: 20px;
+    color: #000;
+  margin-left: 1rem;
+  flex:1;
+  }
+  .rating{
+    color: #9e8d8d;
+    font-size: 1.6rem;
+  }

@@ -15,6 +15,7 @@ function App() {
         <Router>
           <Route path="/" exact component={() => (<PersonInfo fetchId={fetchId} />)} />
           <Route path="/details" exact component={() => (<Details id={id} />)} />
+          <Route path="*" component={() => (<PersonInfo fetchId={fetchId} />)}/>
         </Router>
       </Switch>
     </div>
